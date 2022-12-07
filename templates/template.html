@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  <head lang="en">
+    <meta charset="UTF-8" />
+    <title></title>
+    <style>
+      * {
+        font-size: 10pt;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      p {
+        padding: 5px;
+      }
+
+      table {
+        margin: 0 auto;
+      }
+
+      td {
+        width: 80px;
+      }
+
+      .dataframe {
+        font-size: 7pt;
+        border-collapse: collapse;
+        border: 1px solid black;
+      }
+
+      .dataframe thead {
+        padding: 2px;
+        font-size: 10pt;
+        color: black;
+      }
+
+      .dataframe th {
+        border-bottom-color: black;
+        border-bottom-style: solid;
+        border-bottom-width: 1px;
+      }
+
+      .dataframe td,
+      th {
+        padding: 2px;
+        text-align: center;
+        border-left-color: black;
+        border-left-style: solid;
+        border-left-width: 1px;
+      }
+
+      .dataframe tr:nth-child(even) {
+        background: #e0e0e0;
+      }
+
+      .dataframe tr:hover {
+        background: rgb(112, 105, 105);
+        cursor: pointer;
+      }
+
+      @page {
+        size: A4 landscape;
+        margin: 1cm;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <h1 style="margin-top: 5px; margin-bottom: 10px">
+        <center>{{air_port_name}}</center>
+      </h1>
+    </div>
+    <div>
+      <p>
+        <center>
+          <span class="span"
+            ><b>Report File Name:</b> {{report_file_name}}</span
+          >
+
+          <span class="span"><b>Date of Report:</b> {{date_of_report}} </span>
+
+          <span class="span"><b>Time of Report:</b> {{time_of_report}}</span>
+        </center>
+      </p>
+
+      <p>
+        <center>
+          <span class="span"><b>Way Name:</b> {{way_name}} </span>
+
+          <span class="span"><b>Agent:</b> {{agent_name}} </span>
+
+          <span class="span"><em>(Not Cross Checked)</em></span>
+        </center>
+      </p>
+    </div>
+
+    <div>
+      <hr
+        style="
+          border-top: 1px solid black;
+          border-bottom: none;
+          margin-bottom: 10px;
+          height: 1px;
+        "
+      />
+    </div>
+
+    <div>{{ m_table }}</div>
+
+    <div style="position: fixed; bottom: 400px; width: 100%">
+      <center>
+        <img style="width: 25%; height: auto" src="../img/{{caption_path}}" />
+      </center>
+    </div>
+
+    <div style="position: fixed; bottom: 200px; width: 100%">
+      <center>
+        <img style="width: 25%; height: auto" src="../tmp/{{bar_plot_path}}" />
+      </center>
+    </div>
+
+    <div style="position: fixed; bottom: 40px; width: 100%">
+      <center>
+        <img style="width: 100%; height: auto" src="../tmp/{{contour_plot_path}}" />
+      </center>
+    </div>
+
+    <div style="position: fixed; bottom: 20px; width: 100%">
+      <hr
+        style="
+          border-top: 1px solid black;
+          border-bottom: none;
+          margin-top: 10px;
+          margin-bottom: 0px;
+        "
+      />
+    </div>
+    <div style="position: fixed; bottom: 5px">
+      <span>
+        <b>Date of Report:</b>
+        {{date_of_report}}
+      </span>
+
+      <span> <b>Page:</b> {{page_no}} </span>
+    </div>
+  </body>
+</html>
