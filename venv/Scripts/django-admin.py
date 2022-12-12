@@ -1,4 +1,4 @@
-#!C:\Projects\QuintusLandscape\venv\Scripts\python.exe
+#!c:\projects\quintuslandscape\venv\scripts\python.exe
 # When the django-admin.py deprecation ends, remove this script.
 import warnings
 
