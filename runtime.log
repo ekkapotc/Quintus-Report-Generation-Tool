@@ -980,3 +980,31 @@ INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\0700
 INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-10.pdf was made...',), and kwargs: {}
 INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-11.html was made...',), and kwargs: {}
 INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-11.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('img already exists so nothing was done...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('data already exists so nothing was done...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('tmp already exists so nothing was done...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('report already exists so nothing was done...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('templates already exists so nothing was done...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('QtConfig.ini already exists so nothing was done...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-1.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-1.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-2.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-2.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-3.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-3.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-4.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-4.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-5.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-5.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-6.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-6.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-7.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-7.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-8.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-8.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-9.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-9.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-10.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-10.pdf was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-11.html was made...',), and kwargs: {}
+INFO:root:displayInfo ran with args: ('C:\\Projects\\QuintusLandscape\\tmp\\07000178.pac-11.pdf was made...',), and kwargs: {}
