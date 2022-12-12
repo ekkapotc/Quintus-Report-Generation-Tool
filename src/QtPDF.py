@@ -91,15 +91,15 @@ class QtReport:
         data = {
                 'Light ID': id_list,
                 '%ICAO': icao_list,
-                'Iavg': iavg_list,
-                'Imax' : imax_list,
-                'Hmax' : hmax_list,
-                'Vmax' : vmax_list,
+                'AVG(cd)': iavg_list,
+                'Max(cd)' : imax_list,
+                'Hmax(Deg)' : hmax_list,
+                'Vmax(Deg)' : vmax_list,
                 'C' : color_list,
                 'S' : outcome_list
             }
         
-        columns =('Light ID','%ICAO', 'Iavg','Imax','Hmax','Vmax','C','S')
+        columns =('Light ID','%ICAO', 'AVG(cd)','Max(cd)','Hmax(Deg)','Vmax(Deg)','C','S')
 
         #construct a dataframe 
         self.mtab_df = pd.DataFrame(data,columns=columns)
@@ -118,7 +118,7 @@ class QtReport:
         ICAOs = []
 
         for _ , row in cur_df.iterrows():
-            average_values.append(row['Iavg'])
+            average_values.append(row['AVG(cd)'])
             ICAOs.append(row['%ICAO'])
 
         colors = []
